@@ -9,21 +9,36 @@
   <link rel="stylesheet" href="./assets/css/index.css" />
 </head>
 
+
+
+
 <body>
   <header>
     <h1 class="title">Github Repo Organiser</h1>
   </header>
   <section>
+
+    <!-- Form to accept input from USER -->
+
     <form class="input-form" id="githubRepoForm">
+
+      <!-- Wrapping up in a flex-box for horizontal intendation -->
+
       <div class="input-group">
         <label>Organisation Name</label>
 
         <input id="organisation" name="organisation" class="input-field" type="text" />
       </div>
+
+      <!-- Wrapping up in a flex-box for horizontal intendation -->
+
       <div class="input-group">
         <label>Enter value for M</label>
         <input id="m" name="m" class="input-field" type="text" />
       </div>
+
+      <!-- Wrapping up in a flex-box for horizontal intendation -->
+
       <div class="input-group">
         <label>Enter value for N</label>
         <input id="n" name="n" class="input-field" type="text" />
@@ -33,11 +48,17 @@
     </form>
   </section>
 
+
+  <!-- Section to display the number of Contributors and commit counts -->
+  
   <section>
     <div class="table-container">
       <div class="table-header">
         <h2 id="org-name" style="bolder">GOOGLE</h2>
       </div>
+
+      <!-- Output in a tabular format -->
+      
       <table>
         <thead>
           <tr>
@@ -49,6 +70,9 @@
       </table>
     </div>
   </section>
+
+  <!-- Including Javascript file -->
+  
   <script src="./assets/js/index.js"></script>
 </body>
 
