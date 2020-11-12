@@ -1,0 +1,109 @@
+@import url(https://fonts.googleapis.com/css?family=Source+Sans+Pro);
+
+* {
+  color: #2F4F4F;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-weight: bold;
+  font-size: 20px;
+  font-family:sans-serif;
+}
+
+
+html {
+  overflow-x: hidden;
+}
+
+header {
+  padding: 17px;
+}
+
+.input-form {
+  padding: 2rem 0;
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+  flex-wrap: wrap;
+}
+
+.input-group {
+  margin: 0 10px;
+  display: flex;
+  flex-direction: column;
+}
+
+.input-field {
+  padding: 10px;
+  font-size: 1rem;
+
+  border: solid 2px #80808040;
+  transition: 100ms;
+  box-sizing: border-box;
+}
+
+.input-field:focus {
+  outline: none;
+  border-bottom: inset 2px #509082;
+}
+.btn {
+  padding: 10px;
+  border: solid 2px #80808040;
+}
+
+.title
+{
+  color: #000080;
+   text-shadow: 1px 1px 5px rgba(0,0,0,0.4);
+   padding-top: 25px;
+   padding-bottom: 30px;
+   font-size: 80px;
+   font-weight: 700;
+   text-align: center;
+   font-family: 'Source Sans Pro', sans-serif;
+   margin: 0px;
+}
+
+.table-container {
+  margin: 2rem;
+  border: solid 1px #22232510;
+  border-top-right-radius: 1rem;
+  border-top-left-radius: 1rem;
+  overflow: hidden;
+  height: auto;
+}
+.table-header {
+  background: rgb(242, 245, 255);
+  padding: 1rem;
+
+    border: solid 1px #22232510;
+}
+
+.table-container table {
+  width: 100%;
+}
+.repo-name {
+  text-align: center;
+}
+
+.contributor-prof {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+.contributor-prof .avatar {
+  height: 40px;
+  width: 40px;
+  border-radius: 50%;
+  margin-right: 1rem;
+}
+.contributions {
+  color: #808080;
+}
+li {
+  list-style: none;
+}
+
+th {
+  font-size: 1.2rem;
+}
